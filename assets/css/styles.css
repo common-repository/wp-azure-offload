@@ -1,0 +1,400 @@
+#wpcontent{
+	padding-left:0;
+}
+
+.header{
+	background: #fff;
+	padding-top: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.icon{
+	float: left;
+	width: 36px;
+	margin-left: 20px;
+	text-align: center;
+	padding: 8px 0;
+}
+.wrap{
+	margin-left: 20px;
+}
+.page-title{
+	padding-left: 20px;
+	font-family: arial;
+}
+.sub-header{
+	margin-left: 30px;
+	border-bottom: 2px solid #0085ba;
+}
+.sub-header-title{
+	color:#0085ba;
+	font-weight:600;
+}
+.sub-header h3{
+	margin: 2.5em 0 8px;
+}
+
+div.wp-menu-image:before {
+	color: #000;
+}
+.azure-settings{
+	margin-left: 30px;
+	padding-top:10px;
+	width: 80%;
+}
+.form-table th{
+	width:280px;
+}
+.form-table td input[type=text]{
+	border-radius: 16px;
+	padding: 3px 20px 5px;
+}
+.azure-button{
+	border-radius: 20px !important;
+	width:125px;
+	text-align:center;
+}
+.grey{
+	background: #ccc !important;
+	font-weight: 500;
+}
+.copy-all-media{
+	float: right;
+	position: absolute;
+	right: 0;
+	height: 32px !important;
+	top: 0;
+	font-size: 13px !important;
+	width: 175px !important;
+	padding: 2px !important;
+}
+.azure-main-settings{
+	margin-left: 30px;
+	padding-top:10px;
+	width: 80%;
+}
+div.updated {
+	margin: 10px 0 5px !important;
+}
+.media-container{
+	margin-left: 30px;
+	padding-top: 30px;
+}
+.container-change{
+	text-align: center;
+	width: 75px;
+}
+
+.h3-bg{
+	background: #ccc;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    height: 15px;
+    border: 1px solid #ccc;
+    position: relative;
+    padding-left: 30px;
+    padding-top: 3px;
+    width: 70%;
+    float: left;
+}
+.container-save {
+	display: block;
+	margin-left: 30px;
+	padding-top: 35px;
+	width: 60%;
+}
+.container-div {
+	position: relative;
+}
+.azure-container-name{
+	width: 100%;
+	border-radius: 16px;
+	padding-left: 20px;
+}
+.container-action-save ,.azure-container-create{
+	position: absolute;
+	float: right;
+	top: 0;
+	right: 0;
+	width: 200px;
+}
+
+.border-bottom{
+	border-bottom: 1px solid #ddd;
+}
+.container-name{
+	padding: 5px 10px;
+}
+.azure-main-settings h3{
+	font-weight: 400;
+}
+.wrap-container input{
+	width: 100%;
+}
+
+a {cursor: pointer!important;}
+.container-action-cancel {
+	cursor: pointer;
+	color: #a00;
+	text-decoration: none;
+}
+.container-error span.title {
+	font-weight: bold;
+}
+.container-error{
+	margin: 15px 2px !important;
+}
+.wrap-container .container-select .container-list {
+	padding: 15px;
+	max-height: 200px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #fff;
+	font-size: 14px;
+}
+.notice-dismiss {
+	float: right;
+	padding-top: 1px;
+}
+
+.pos{
+	position: initial;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+.wrap-container input[type=checkbox] {
+	width: inherit;
+}
+.cdn-endpoint input{ width:40%}
+
+.form-table td {
+	vertical-align: text-top;
+}
+#dialog-confirm{
+	display:none;
+}
+.confirm-header{
+	background-color: #0073aa;
+	padding: 14px;
+	color: #fff;
+}
+.confirm-content{
+	background-color:#fff;
+	padding:10px;
+	height:100px;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+	margin: auto;
+	width: 25%;
+}
+
+#progress{
+	width: 85%;
+	background-color: #eae8e8;
+	border-radius: 16px;
+	height: 7px;
+	margin-top: 3px;
+}
+
+#bar {
+	height: 7px;
+	border-radius: 16px;
+}
+#status{
+	float:right;
+	font-size: 12px;
+	font-weight: 800;
+	margin-left: 10px;
+}
+.progress-bar{
+	width: 28%;
+	display: none;
+}
+.azuress{
+	padding-top:80px;
+}
+
+.right{
+	float: right;
+}
+
+.close{
+	float:right;
+	font-size: 20px;
+	color: #8c8787;
+	display:none;
+	cursor: pointer;
+}
+
+h2.nav-tab-wrapper, h1.nav-tab-wrapper {
+	border-bottom: 1px solid #ccc;
+	margin-top: 25px;
+	padding-top: 9px;
+	padding-bottom: 0;
+	line-height: inherit;
+}
+
+.delete-from-azure{
+	color: #a00;
+	background: rgba(255, 255, 255, 0);
+	border: none;
+	cursor: pointer;
+}
+
+.copy-to-azure{
+	color: #0073aa;
+	background: rgba(255, 255, 255, 0);
+	border: none;
+	cursor: pointer;
+}
+.copy-to-azure:hover{
+	color: #00a0d2;
+}
+
+.delete-from-azure:hover{
+	color: red ;
+}
+
+.loader {
+	display: inline-block;
+	margin-left: 10px;
+	border: 2px solid #f3f3f3;
+	border-top: 2px solid #3498db;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	animation: spin 2s linear infinite;
+}
+
+.bulk{
+	width: 100px;
+	height: 100px;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg);}
+}
+
+.status{
+	float: left;
+	padding: 10px;
+	margin: 10px 0;
+	background: white;
+	border: 1px solid #e5e5e5;
+	margin: 10px 0;
+}
+
+.sk-chasing-dots {
+	top: 118px;
+	margin: 40px auto;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	text-align: center;
+	-webkit-animation: sk-chasingDotsRotate 2s infinite linear;
+	animation: sk-chasingDotsRotate 2s infinite linear;
+}
+.sk-chasing-dots .sk-child {
+	width: 60%;
+	height: 60%;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	background-color: #333;
+	border-radius: 100%;
+	-webkit-animation: sk-chasingDotsBounce 2s infinite ease-in-out;
+	animation: sk-chasingDotsBounce 2s infinite ease-in-out;
+}
+.sk-chasing-dots .sk-dot2 {
+	top: auto;
+	bottom: 0;
+	-webkit-animation-delay: -1s;
+	animation-delay: -1s;
+}
+@-webkit-keyframes sk-chasingDotsRotate {
+  100% {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+}
+@keyframes sk-chasingDotsRotate {
+  100% {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes sk-chasingDotsBounce {
+  0%, 100% {
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	}
+	50% {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	}
+}
+@keyframes sk-chasingDotsBounce {
+  0%, 100% {
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	}
+  50% {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	}
+}
+
+.tab-setting{
+	display: inline-block;
+	width: 100px;
+	float: left;
+	margin-bottom: 9px;
+	margin-right: 10px;
+}
+
+.azure-active-container{
+	margin-right: 20px;
+}
+
+.upload-count{
+	display: none;
+}
+
+.circle {
+	margin: 15px 20px 26px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+.circle-status {
+	position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 11px;
+    font-weight: 900;
+}
